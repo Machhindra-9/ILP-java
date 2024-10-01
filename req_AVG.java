@@ -19,5 +19,6 @@ public class req_AVG{
             }
         }
         System.out.println("The average of the range of no is "+sum/(upperLimit-1-lowerLimit)+"sum is = "+sum);
+        sc.close();
     }
 }
